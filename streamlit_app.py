@@ -46,6 +46,7 @@ def insert_row_snowflake(new_fruit):
     my_cur.execute("insert into fruit_load_list values ('from streamlit')")
     return "Thanks for adding " + new_fruit
     
+    
 
 
 
